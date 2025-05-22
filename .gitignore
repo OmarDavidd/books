@@ -74,5 +74,4 @@ yarn-error.log*
 **/__pycache__/
 *.pyc
 
-target/
 *.jar
