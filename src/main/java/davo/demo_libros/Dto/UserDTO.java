@@ -17,5 +17,5 @@ public class UserDTO {
     private String fechaRegistro;
     private Double valoracion;
     private Boolean activo;
-    private List<Libro> idLibros;
+    //private List<Libro> idLibros;
 }

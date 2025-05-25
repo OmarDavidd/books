@@ -27,7 +27,7 @@ public class UsuarioService {
         dto.setFechaRegistro(usuario.getFechaRegistro().toString());
         dto.setValoracion(usuario.getValoracion());
         dto.setActivo(usuario.getActivo());
-        dto.setIdLibros(usuario.getLibros());
+        //dto.setIdLibros(usuario.getLibros());
 
         return dto;
     }
@@ -42,6 +42,12 @@ public class UsuarioService {
         return usuarioRepository.findById(id)
                 .map(this::convertToDTO);
     }
+
+		@Transactional(readOnly = true)
+public Optional<UserDTO> findByEmail(String email) {
+    return usuarioRepository.findByEmail(email)
+            .map(this::convertToDTO);
+}
 
     @Transactional
     public Usuario addUser(Usuario usuario) {
