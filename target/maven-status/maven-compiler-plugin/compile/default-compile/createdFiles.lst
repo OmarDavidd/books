@@ -1,10 +1,13 @@
 davo/demo_libros/Models/Prestamo.class
+davo/demo_libros/services/EstadoService.class
 davo/demo_libros/services/SupabaseAuthService.class
 davo/demo_libros/services/UsuarioService.class
 davo/demo_libros/Dto/LibroDTO.class
 davo/demo_libros/config/SecurityConfig.class
 davo/demo_libros/Dto/SupabaseAuthResponse.class
 davo/demo_libros/services/PrestamosService.class
+davo/demo_libros/controllers/EstadoController.class
+davo/demo_libros/Repository/EstadoRepository.class
 davo/demo_libros/Repository/PrestamoRepository.class
 davo/demo_libros/controllers/LibroController.class
 davo/demo_libros/Repository/UsuarioRepository.class
@@ -22,6 +25,7 @@ davo/demo_libros/DemoLibrosApplication$MyConfiguretion$1.class
 davo/demo_libros/services/LibroService.class
 davo/demo_libros/controllers/PrestamoController.class
 davo/demo_libros/Models/Usuario.class
+davo/demo_libros/Dto/EstadoDTO.class
 davo/demo_libros/Dto/PrestamoDTO.class
 davo/demo_libros/Models/Genero.class
 davo/demo_libros/DemoLibrosApplication$MyConfiguretion.class

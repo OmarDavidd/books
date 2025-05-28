@@ -1,4 +1,5 @@
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/DemoLibrosApplication.java
+/home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Dto/EstadoDTO.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Dto/GeneroDTO.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Dto/LibroDTO.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Dto/LoginRequest.java
@@ -11,6 +12,7 @@
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Models/Libro.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Models/Prestamo.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Models/Usuario.java
+/home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Repository/EstadoRepository.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Repository/GeneroRepository.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Repository/LibroRepository.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Repository/PrestamoRepository.java
@@ -19,9 +21,11 @@
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/config/JwtUtil.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/config/SecurityConfig.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/controllers/AuthController.java
+/home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/controllers/EstadoController.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/controllers/LibroController.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/controllers/PrestamoController.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/controllers/UsuarioController.java
+/home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/services/EstadoService.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/services/LibroService.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/services/PrestamosService.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/services/SupabaseAuthService.java
