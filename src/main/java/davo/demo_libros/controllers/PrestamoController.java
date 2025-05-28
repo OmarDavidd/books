@@ -9,6 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
@@ -38,4 +39,33 @@ public class PrestamoController {
         }
         return new ResponseEntity<>(prestamos, HttpStatus.OK);
     }
+
+    @PutMapping("/estado/{id}")
+    public ResponseEntity<PrestamoDTO> cambiarEstado(
+            @PathVariable Long id,
+            @RequestBody Long nuevoEstadoId
+    ) {
+        PrestamoDTO updatedPrestamo = prestamosService.cambiarEstado(id, nuevoEstadoId);
+        return ResponseEntity.ok(updatedPrestamo);
+    }
+
+    @PutMapping("/fecha/{id}")
+    public ResponseEntity<PrestamoDTO> cambiarFecha(
+            @PathVariable Long id,
+            @RequestBody LocalDateTime date
+    ) {
+        PrestamoDTO updatedPrestamo = prestamosService.cambiarFecha(id, date);
+        return ResponseEntity.ok(updatedPrestamo);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteLibro(@PathVariable Long id) {
+        try {
+            prestamosService.eliminarPrestamo(id);
+            return ResponseEntity.noContent().build();
+        } catch (RuntimeException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build(); // Retorna 404 Not Found
+        }
+    }
+
 }

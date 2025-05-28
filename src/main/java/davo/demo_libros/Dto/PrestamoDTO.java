@@ -14,9 +14,12 @@ public class PrestamoDTO {
     private String nombreSolicitante;
     private String nombrePropietario;
     private String nombreLibro;
+    private int idLibro;
     private String fechaInicio;
     private String fechaDevolucionEsperada;
     private int duracion;
     private String lugar;
     private String estado;
+    private String mensaje;
+
 }

@@ -100,7 +100,6 @@ public class LibroService {
 
     @Transactional(readOnly = true)
     public List<LibroDTO> obtenerTodosLosLibrosDTO() {
-        System.out.println("all"+libroRepository.findAll());
         return libroRepository.findAll()
                 .stream()
                 .map(this::convertToDTO)

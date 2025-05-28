@@ -41,4 +41,7 @@ public class Prestamo {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_estado", nullable = false)
     private EstadoPrestamo estado;
+
+    @Column(name = "mensaje")
+    private String mensaje;
 }
