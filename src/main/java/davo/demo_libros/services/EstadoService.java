@@ -1,11 +1,9 @@
 package davo.demo_libros.services;
 
 import davo.demo_libros.Dto.EstadoDTO;
-import davo.demo_libros.Dto.LibroDTO;
 import davo.demo_libros.Models.EstadoPrestamo;
 import davo.demo_libros.Repository.EstadoRepository;
-import davo.demo_libros.Repository.PrestamoRepository;
-import lombok.Locked;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -17,6 +17,11 @@
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Repository/LibroRepository.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Repository/PrestamoRepository.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/Repository/UsuarioRepository.java
+/home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/chat/Controller/ChatController.java
+/home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/chat/Models/ChatMessage.java
+/home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/chat/Repository/ChatRepository.java
+/home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/chat/Service/ChatService.java
+/home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/chat/config/WebSocketConfig.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/config/JwtAuthenticationFilter.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/config/JwtUtil.java
 /home/davo/uni/Ing/proyectos/intercambio-libros/demo-libros/src/main/java/davo/demo_libros/config/SecurityConfig.java

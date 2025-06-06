@@ -6,10 +6,13 @@ davo/demo_libros/Dto/LibroDTO.class
 davo/demo_libros/config/SecurityConfig.class
 davo/demo_libros/Dto/SupabaseAuthResponse.class
 davo/demo_libros/services/PrestamosService.class
+davo/demo_libros/chat/Controller/ChatController.class
+davo/demo_libros/chat/Repository/ChatRepository.class
 davo/demo_libros/controllers/EstadoController.class
 davo/demo_libros/Repository/EstadoRepository.class
 davo/demo_libros/Repository/PrestamoRepository.class
 davo/demo_libros/controllers/LibroController.class
+davo/demo_libros/chat/config/WebSocketConfig.class
 davo/demo_libros/Repository/UsuarioRepository.class
 davo/demo_libros/Dto/GeneroDTO.class
 davo/demo_libros/controllers/AuthController.class
@@ -21,6 +24,7 @@ davo/demo_libros/config/JwtUtil.class
 davo/demo_libros/controllers/UsuarioController.class
 davo/demo_libros/Dto/UserDTO.class
 davo/demo_libros/Repository/GeneroRepository.class
+davo/demo_libros/chat/Service/ChatService.class
 davo/demo_libros/DemoLibrosApplication$MyConfiguretion$1.class
 davo/demo_libros/services/LibroService.class
 davo/demo_libros/controllers/PrestamoController.class
@@ -28,6 +32,7 @@ davo/demo_libros/Models/Usuario.class
 davo/demo_libros/Dto/EstadoDTO.class
 davo/demo_libros/Dto/PrestamoDTO.class
 davo/demo_libros/Models/Genero.class
+davo/demo_libros/chat/Models/ChatMessage.class
 davo/demo_libros/DemoLibrosApplication$MyConfiguretion.class
 davo/demo_libros/Repository/LibroRepository.class
 davo/demo_libros/DemoLibrosApplication.class
