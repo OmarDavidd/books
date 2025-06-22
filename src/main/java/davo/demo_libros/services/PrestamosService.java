@@ -29,7 +29,10 @@ public class PrestamosService {
         PrestamoDTO dto = new PrestamoDTO();
         dto.setId(prestamo.getId());
         dto.setNombreSolicitante(prestamo.getSolicitante().getNombre());
+
+        dto.setIdSolicitante(prestamo.getSolicitante().getId().toString());
         dto.setNombrePropietario(prestamo.getPropietario().getNombre());
+        dto.setIdPropietario(prestamo.getPropietario().getId().toString());
         dto.setNombreLibro(prestamo.getLibro().getTitulo());
         dto.setIdLibro(Math.toIntExact(prestamo.getLibro().getId()));
         dto.setFechaInicio(

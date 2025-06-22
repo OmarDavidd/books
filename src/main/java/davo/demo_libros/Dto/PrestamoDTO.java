@@ -12,7 +12,9 @@ import lombok.Setter;
 public class PrestamoDTO {
     private Long id;
     private String nombreSolicitante;
+    private String idSolicitante;
     private String nombrePropietario;
+    private String idPropietario;
     private String nombreLibro;
     private int idLibro;
     private String fechaInicio;

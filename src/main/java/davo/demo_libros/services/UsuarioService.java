@@ -43,9 +43,9 @@ public class UsuarioService {
                 .map(this::convertToDTO);
     }
 
-		@Transactional(readOnly = true)
-public Optional<UserDTO> findByEmail(String email) {
-    return usuarioRepository.findByEmail(email)
+    @Transactional(readOnly = true)
+    public Optional<UserDTO> findByEmail(String email) {
+        return usuarioRepository.findByEmail(email)
             .map(this::convertToDTO);
 }
 
